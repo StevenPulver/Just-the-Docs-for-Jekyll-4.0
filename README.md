@@ -11,12 +11,12 @@
 
 ![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
 
-## Installation
+## Installation for Jekyll 4.0
 
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "just-the-docs"
+gem "just-the-docs", :git => "https://github.com/barisaksu/Just-the-Docs-for-Jekyll-4.0.git", :branch => "master"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
@@ -29,9 +29,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install just-the-docs
 
 ## Usage
 
